@@ -1,0 +1,18 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.usuario {
+    color: gray;
+}
+
+button{
+    color: white;
+    background-color: black;
+}
