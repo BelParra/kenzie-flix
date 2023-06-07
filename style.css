@@ -6,13 +6,40 @@ body {
 
 h1 {
     color: white;
+    text-align: center;
 }
 
-.usuario {
-    color: gray;
-}
-
-button{
+.gerenciar-perfis {
     color: white;
     background-color: black;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: 40px;
+    border: 1px solid white;
 }
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+.logokenzie img {
+    display: block;
+    margin: 0 auto;
+}
+
+.perfis nav ul li {
+    list-style: none;
+}
+
+.perfis img {
+    border-radius: 5px;
+    max-width: 10%
+}
+
+.perfis p {
+    color: gray;
+    text-align:
+  }
