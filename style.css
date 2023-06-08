@@ -1,45 +1,93 @@
-body {
+* {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
     background-color: black;
-    color: white;
 }
 
 h1 {
     color: white;
     text-align: center;
-}
-
-.gerenciar-perfis {
-    color: white;
-    background-color: black;
-    margin: 0 auto;
-    display: block;
-    width: 200px;
-    height: 40px;
-    border: 1px solid white;
+    margin-top: 10px;
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 1000px;
     margin: 0 auto;
-
 }
 
-.logokenzie img {
-    display: block;
-    margin: 0 auto;
+.logo-kenzieflix {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 
-.perfis nav ul li {
+.perfis-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.perfis-flex nav ul {
+    display: flex;
     list-style: none;
+    padding: 0;
 }
 
-.perfis img {
-    border-radius: 5px;
-    max-width: 10%
+.perfis-flex nav ul li {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    width: 20%;
+    text-align: center;
 }
 
-.perfis p {
+.perfis-flex nav ul li div {
     color: gray;
-    text-align:
+    text-align: center;
+}
+
+.perfis-flex nav ul li div img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10%;
   }
+
+.perfis-flex nav ul li:hover div {
+    color: white;
+}
+
+.perfis-flex nav ul li:hover img {
+    box-shadow: 0 0 0 2px white;
+}
+
+.pag-kenzieflix {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.b-gerenciar-perfis {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+   }
+
+.b-gerenciar-perfis:hover {
+    background-color: white;
+    color: black;
+}
