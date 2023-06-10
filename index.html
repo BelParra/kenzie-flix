@@ -3,58 +3,46 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>KenzieFlix</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <div class="logo-kenzieflix">
-                <img src="./img/logo.png" alt="KenzieFlix">
-            </div>
-            <div>
-                <h1>Quem está assistindo?</h1>
-            </div>
-        </header>
-        <main class="pag-kenzieflix">
-            <section class="perfis-flex">
-                <nav>
-                    <ul>
-                        <li>
-                            <div>
-                                <img src="./img/pink.png" alt="pink">
-                                <p>Aline</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <img src="./img/panda.png" alt="panda">
-                                <p>Pedrinho</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <img src="./img/robot.png" alt="robot">
-                                <p>Júlia</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="adc-usuario">
-                                <img src="./img/plus.png" alt="adicionar">
-                                <p>Adicionar Perfil</p>
-                            </div>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
-            <section class="button">
-                <button class="b-gerenciar-perfis" type="submit">Gerenciar Perfis</button>
-            </section>
-        </main>
+    <header>
+        <div class="container-topo">
+            <img src="./img/logo.png" alt="logo kenzie">
+            <h1>Quem está assistindo?</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container-perfis">
+            <ul>
+                <li>
+                    <img src="./img/pink.png" alt="pink">
+                    <p>Aline</p>
+                </li>
+                <li>
+                    <img src="./img/panda.png" alt="panda">
+                    <p>Pedrinho</p>
+                </li>
+                <li>
+                    <img src="./img/robot.png" alt="robot">
+                    <p>Júlia</p>
+                </li>
+                <li>
+                    <img src="./img/plus.png" alt="plus">
+                    <p>Adicionar Perfil</p>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <div class="button-container">
+        <button>Gerenciar Perfis</button>
     </div>
+    
 </body>
 
 </html>
